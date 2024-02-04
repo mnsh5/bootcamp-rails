@@ -26,6 +26,8 @@ puts 5 < 3
 puts 5 <= 23
 puts 5 >= 23
 puts 23 == 23
+puts 5.eql?(5)
+puts 5 != 1
 
 # Methods
 num = 5
