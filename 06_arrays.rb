@@ -32,3 +32,13 @@ p user.join(" ")
 
 s = "Vittore Corleone"
 p s.split()
+
+name = ["Vittore", "Corleone"]
+
+for index in name
+  puts "index: #{index}"
+end
+
+name.each_with_index  do |i, v|
+  puts "#{i}: #{v}"
+end
