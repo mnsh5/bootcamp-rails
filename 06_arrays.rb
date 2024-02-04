@@ -33,12 +33,21 @@ p user.join(" ")
 s = "Vittore Corleone"
 p s.split()
 
-name = ["Vittore", "Corleone"]
+name = ["Vittore", "Messi", "Corleone", "Matsumoto"]
 
 for index in name
   puts "index: #{index}"
 end
 
-name.each_with_index  do |i, v|
-  puts "#{i}: #{v}"
+name.each_with_index  do |value, index|
+  # puts "#{index}: #{value}"
+  if value == "Vittore"
+  puts "#{value} is from Italy"
+  elsif value == "Corleone"
+    puts "#{value} is from USA"
+  elsif value == "Messi"
+    puts "#{value} is from Argentina"
+  else
+    puts "#{value} is from Japan"
+  end
 end
