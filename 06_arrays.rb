@@ -1,4 +1,5 @@
 # -- Arrays --
+
 a = [1, 2, 3, 4, 5]
 b = [1, "Subhash", true, 3.14]
 p a
