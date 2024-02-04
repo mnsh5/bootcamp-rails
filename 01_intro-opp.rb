@@ -8,7 +8,7 @@ class Cat
   end
 
   def meow
-    puts "My 🐈 #{@name} said Meoow.. 🐈"
+    puts "My 🐈 #{@name} said Meoow.."
   end
 end
 
